@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Sinkhole Detector
 
-# Run and deploy your AI Studio app
+An AI-powered sinkhole detection and analysis dashboard.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/c98e3905-c3fa-4070-a8a0-a5f9f7293831
+- Upload satellite and drone images
+- Detect possible sinkholes
+- Generate geological risk reports
+- Display locations on a map
+- Store scan history
 
-## Run Locally
+## Technologies Used
 
-**Prerequisites:**  Node.js
+- React
+- TypeScript
+- Express.js
+- Google Gemini API
+- Leaflet
 
+## AI Studio App
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+https://ai.studio/apps/c98e3905-c3fa-4070-a8a0-a5f9f7293831
