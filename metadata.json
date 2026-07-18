@@ -1,0 +1,6 @@
+{
+  "name": "Sinkhole Detector",
+  "description": "An AI-powered multi-spectral sinkhole detection and analysis dashboard featuring image uploaded scans, bounding box overlays, risk charts, geospatial maps, and history registry logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
